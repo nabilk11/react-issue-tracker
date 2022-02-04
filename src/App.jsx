@@ -5,7 +5,15 @@ import CurrentIssue from './components/CurrentIssue/CurrentIssue';
 import './App.css';
 
 function App() {
-  const [addIssue, setAddIssue] = useState(false)
+  const [addIssue, setAddIssue] = useState(true)
+
+  const showAddIssue = () => {
+      setAddIssue(true)
+  }
+
+const showCurrentIssue = () => {
+    setAddIssue(false)
+}
   return (
     <div className="App">
       <h1>Issue Tracker 1.0</h1>
@@ -13,8 +21,8 @@ function App() {
       { addIssue ? <AddIssue/> : <CurrentIssue/>}
       </div>
     <div className="buttons">
-<button className="view-button">Current Issues</button>
-<button className="add-button active-button">  Add Issue  </button>
+<button className="view-button" onClick={() => showCurrentIssue()}>Current Issues</button>
+<button className="add-button active-button" onClick={() => showAddIssue()}>Add Issue</button>
 
     </div>
     </div>

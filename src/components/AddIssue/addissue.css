@@ -6,13 +6,13 @@ label select {
     margin-left: 30px;
 }
 form label {
-    margin-top: 20px;
+    margin-top: 18px;
 }
 label input,
 label select {
     width: 80%;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 6px;
+    margin-top: 5px;
     cursor: pointer;
 
 
@@ -26,9 +26,14 @@ border: none;
 -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
   box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
   padding: 15px 30px;
-  margin-top: 20px;
-  margin-bottom: 18px;
+  margin-top: 15px;
+  margin-bottom: 16px;
   cursor: pointer;
+  text-shadow: 1px 1px 2px black;
 
 
+}
+form button:hover{
+    background-color: orange;
+    color: white;
 }
