@@ -16,7 +16,7 @@ export default function AddIssue() {
         </label>
     <label htmlFor="">
         Description
-        <input type="text" />
+        <input placeholder="Description of Issue" type="text" />
         </label>
         <label htmlFor="">
             Assign To

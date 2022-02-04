@@ -20,6 +20,9 @@ h1{
   -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
   box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
   padding: 40px 50px 30px;
+  max-height: 525px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .view-button {
@@ -79,3 +82,4 @@ margin-top: 15px;
   
 
 }
+
