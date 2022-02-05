@@ -16,7 +16,8 @@ const showCurrentIssue = () => {
 }
   return (
     <div className="App">
-      <h1>Issue Tracker 1.0</h1>
+      <h1>unbugify <br/>
+        <small>issue tracker 1.0</small></h1>
       <div className="grey-card-container">
       { addIssue ? <AddIssue/> : <CurrentIssue/>}
       </div>

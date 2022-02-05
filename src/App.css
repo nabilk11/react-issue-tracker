@@ -16,7 +16,10 @@ body {
   color:cornflowerblue;
   text-shadow: 1px 1px 2px black;
 
-
+}
+.App h1 small {
+  color: orange;
+  font-size: 34px;
 }
 
 .grey-card-container {
